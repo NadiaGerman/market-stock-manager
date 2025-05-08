@@ -52,3 +52,23 @@ print("\n✅ Q9 - In-Stock Products:")
 for product in products:
     if product["stock"] > 0:
         print(f"- {product['name']} ({product['stock']} in stock)")
+# === Q10: Restock products with stock < 10 (+50)
+print("\n🔄 Q10 - Restocking Products with Low Stock:")
+for product in products:
+    if product["stock"] < 10:
+        print(f"- Restocking {product['name']} (was {product['stock']})")
+        product["stock"] += 50
+
+# === Q11: Sort products by price (ascending)
+print("\n📈 Q11 - Products Sorted by Price:")
+sorted_products = sorted(products, key=lambda p: p["price"])
+for product in sorted_products:
+    print(f"- {product['name']}: ${product['price']}")
+
+# === Q12: Remove out-of-stock products (stock == 0)
+print("\n🗑️ Q12 - Removing Out-of-Stock Items:")
+before_count = len(products)
+products = [p for p in products if p["stock"] > 0]
+after_count = len(products)
+removed = before_count - after_count
+print(f"🧹 Removed {removed} out-of-stock item(s).")
