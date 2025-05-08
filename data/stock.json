@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Juice",
+        "category": "Beverage",
+        "price": 2.5,
+        "stock": 50
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "category": "Fruit",
+        "price": 0.3,
+        "stock": 120
+    },
+    {
+        "id": 3,
+        "name": "Whole Wheat Bread",
+        "category": "Bakery",
+        "price": 1.8,
+        "stock": 30
+    },
+    {
+        "id": 4,
+        "name": "Milk 1L",
+        "category": "Dairy",
+        "price": 1.5,
+        "stock": 80
+    },
+    {
+        "id": 5,
+        "name": "Eggs Pack (12)",
+        "category": "Dairy",
+        "price": 2.2,
+        "stock": 60
+    },
+    {
+        "id": 6,
+        "name": "Tomatoes",
+        "category": "Vegetable",
+        "price": 1.0,
+        "stock": 100
+    },
+    {
+        "id": 7,
+        "name": "Chicken Breast",
+        "category": "Meat",
+        "price": 5.5,
+        "stock": 25
+    },
+    {
+        "id": 8,
+        "name": "Cereal",
+        "category": "Grocery",
+        "price": 3.0,
+        "stock": 40
+    },
+    {
+        "id": 9,
+        "name": "Yogurt",
+        "category": "Dairy",
+        "price": 0.9,
+        "stock": 75
+    },
+    {
+        "id": 10,
+        "name": "Orange Juice",
+        "category": "Beverage",
+        "price": 2.8,
+        "stock": 45
+    }
+]
