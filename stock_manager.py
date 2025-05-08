@@ -21,3 +21,19 @@ print("\n📦 Q3 - Stock > 50:")
 for product in products:
     if product['stock'] > 50:
         print("-", product['name'])
+# === Q4: Products in "Beverage" category ===
+print("\n🍹 Q4 - Beverages Only:")
+for product in products:
+    if product["category"].lower() == "beverage":
+        print(f"- {product['name']}")
+
+# === Q5: Product with the lowest price ===
+print("\n💰 Q5 - Cheapest Product:")
+cheapest = min(products, key=lambda p: p["price"])
+print(f"- {cheapest['name']} at ${cheapest['price']}")
+
+# === Q6: Beverages priced below $3 ===
+print("\n🥤 Q6 - Beverages Under $3:")
+for product in products:
+    if product["category"].lower() == "beverage" and product["price"] < 3:
+        print(f"- {product['name']} (${product['price']})")
